@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@mipmap/fd"
+    tools:context=".Dai">
+
+    <TextView
+        android:layout_marginTop="66dp"
+        android:id="@+id/textView9"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="66dp"
+        android:textColor="@color/bluee"
+        android:gravity="center_horizontal"
+        android:text="发" />
+    <TextView
+        android:layout_marginTop="66dp"
+        android:id="@+id/textView10"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="66dp"
+        android:textColor="@color/bluee"
+        android:gravity="center_horizontal"
+        android:text="呆" />
+    <TextView
+        android:layout_marginTop="66dp"
+        android:id="@+id/textView11"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="66dp"
+        android:textColor="@color/bluee"
+        android:gravity="center_horizontal"
+        android:text="中" />
+    <TextView
+        android:layout_marginTop="66dp"
+        android:id="@+id/textView12"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="66dp"
+        android:textColor="@color/bluee"
+        android:gravity="center_horizontal"
+        android:text="……" />
+</LinearLayout>

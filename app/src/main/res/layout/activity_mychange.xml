@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@mipmap/czcz"
+    tools:context=".Mychange">
+
+    <TextView
+        android:layout_marginTop="36dp"
+        android:id="@+id/textView13"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="46dp"
+        android:textColor="@color/pinkkk"
+        android:gravity="center_horizontal"
+        android:text="角色修改" />
+    <TextView
+        android:layout_marginTop="66dp"
+        android:id="@+id/textView14"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="46dp"
+        android:textColor="@color/pinkkk"
+        android:gravity="center_horizontal"
+        android:text="更改角色姓名" />
+    <EditText
+        android:id="@+id/editText1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="请输入名字"
+
+        android:textColor="@color/pinkkk"
+        android:gravity="center_horizontal"
+        android:textSize="30dp"/>
+    <TextView
+        android:layout_marginTop="66dp"
+        android:id="@+id/textView15"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/pinkkk"
+        android:textSize="46dp"
+        android:gravity="center_horizontal"
+        android:text="更改角色职业" />
+    <Spinner
+        android:id="@+id/spinner"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:layout_gravity="center_horizontal"
+        android:textSize="50sp"
+        android:layout_marginTop="30dp"
+        >
+    </Spinner>
+
+    <Button
+        android:id="@+id/button9"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="36dp"
+        android:background="#9AFF9A"
+        android:text="重         铸"
+        android:textSize="30dp" />
+
+</LinearLayout>

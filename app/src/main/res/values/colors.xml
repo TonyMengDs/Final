@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <drawable name="darkgray">#808080</drawable>
+    <drawable name="white">#FFFFFF</drawable>
+    <drawable name="blue">#0000FF</drawable>
+    <drawable name="lightred">#90FF0000</drawable>
+    <drawable name="lightgray">#90505050</drawable>
+    <color name="colorPrimary">#36648B</color>
+    <color name="colorPrimaryDark">#36648B</color>
+    <color name="colorAccent">#36648B</color>
+    <color name="bluee">#9AFF9A</color>
+    <color name="pinkk">#4876FF</color>
+    <color name="blueee">#36648B</color>
+    <color name="rred">#4B0082</color>
+    <color name="pinkkk">#CAFF70</color>
+    <color name="pinkkkk">#9A32CD</color>
+
+
+
+</resources>

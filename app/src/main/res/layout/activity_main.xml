@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="@drawable/background_gradient"
+    tools:context=".MainActivity"
+    >
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="欢迎来到"
+        android:textSize="25sp"
+        android:gravity="center"
+        android:layout_marginBottom="20dp"/>
+    <TextView
+        android:id="@+id/title1"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="地下城与勇士"
+        android:textSize="25sp"
+        android:gravity="center"
+        android:layout_marginBottom="20dp"/>
+    <TextView
+        android:id="@+id/title2"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="文字手游"
+        android:textSize="25sp"
+        android:gravity="center"
+        android:layout_marginBottom="20dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="#00BA55D3"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"/>
+    <Button
+        android:id="@+id/btn1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="onClick"
+        android:background="#4D3A5FCD"
+        android:text="开始游戏" />
+    <TextView
+        android:id="@+id/title3"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="copyright by mXd"
+        android:textSize="15sp"
+        android:gravity="center"
+        android:layout_marginBottom="20dp"/>
+</LinearLayout>

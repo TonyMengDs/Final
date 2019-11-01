@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/menu_person"
+        android:title="个人面板"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/menu_back"
+        android:title="返回城镇"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/menu_reset"
+        android:title="重建角色"
+        app:showAsAction="always" />
+</menu>
